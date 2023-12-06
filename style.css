@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.profileNavBar{
+    padding: 2vh 2vh;
+}
+.upperRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navUpperLeftSide{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.navUpperLeftSide i{
+    font-size: 20px;
+}
+.navUpperLeftSide i:first-child{
+    font-size: 20px;
+    padding-bottom: 1.5px;
+}
+.navUpperLeftSide i:last-child{
+    font-size: 20px;
+    padding-bottom: 1.5px;
+}
+.navUpperLeftSide #accountName{
+    font-size: 20px;
+}
+.navUpperRightSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.navUpperRightSide i{
+    font-size: 20px;
+}
